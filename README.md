@@ -1,4 +1,4 @@
-\# Supply Chain Demand Forecasting Dataset (AF-GAT-LSTM)
+\#Supply Chain Demand Forecasting Dataset (AF-GAT-LSTM)
 
 
 
@@ -12,7 +12,7 @@ We reformatted the data for spatio-temporal graph forecasting tasks, enabling us
 
 
 
-\## Contents
+\##Contents
 
 \- `data/nodes.csv` — Node-level metadata (SKUs with attributes)
 
@@ -22,7 +22,7 @@ We reformatted the data for spatio-temporal graph forecasting tasks, enabling us
 
 
 
-\## Statistics
+\##Statistics
 
 \- \*\*Nodes:\*\* 501  
 
@@ -34,7 +34,7 @@ We reformatted the data for spatio-temporal graph forecasting tasks, enabling us
 
 
 
-\## Citation
+\##Citation
 
 If you use this dataset, please cite:
 
