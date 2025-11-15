@@ -8,16 +8,17 @@ We reformatted the data for spatio-temporal graph forecasting tasks, enabling us
 
 ## Contents
 
-- `dataset/nodes.csv` — Node-level metadata (SKUs with attributes)
-- `dataset/Edges (Plant).csv` — Graph edges constructed from demand correlation and co-occurrence
-- `dataset/Sales Order.csv` — Time-series sales per SKU (daily demand)
+- `dataset/nodes.csv` — Node-level metadata (store-item pairs with attributes)
+- `dataset/edges.csv` — Fully-connected graph edges connecting all nodes
+- `dataset/sales.csv` — Time-series sales per node (daily demand) in pivot matrix format
 
 ## Statistics
 
-- **Nodes:** 501
-- **Edges:** 29,000
-- **Time Steps:** 1,827 days
-- **Store:** Single-store subset (filtered from Kaggle source)
+- **Nodes:** 500 (10 stores × 50 items)
+- **Edges:** 124,750 (fully-connected graph)
+- **Time Steps:** 1,826 days
+- **Unique Stores:** 10
+- **Unique Items:** 50
 
 ## Citation
 
